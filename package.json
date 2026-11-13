@@ -1,0 +1,33 @@
+{
+  "name": "keil-proteus-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node scripts/test.mjs",
+    "keil": "node dist/src/server.js keil",
+    "proteus": "node dist/src/server.js proteus",
+    "doctor": "node dist/src/doctor.js",
+    "configure": "node scripts/configure.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "fast-xml-parser": "5.3.6",
+    "iconv-lite": "0.7.2",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT",
+  "description": "Local Windows MCP servers for Keil C51 builds and Proteus simulation automation",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "url": "https://github.com/jackmaikr4-sketch/keil-proteus-automation-skill-mcp.git",
+    "type": "git"
+  }
+}

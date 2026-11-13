@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "keil-mcp": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\Tools\\keil-proteus-mcp\\dist\\src\\server.js", "keil"]
+    },
+    "proteus-mcp": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\Tools\\keil-proteus-mcp\\dist\\src\\server.js", "proteus"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Merge into your existing config; replace paths with your actual installation.
+[mcp_servers.keil-mcp]
+command = 'C:\Program Files\nodejs\node.exe'
+args = ['C:\Tools\keil-proteus-mcp\dist\src\server.js', 'keil']
+startup_timeout_sec = 30
+tool_timeout_sec = 180
+
+[mcp_servers.proteus-mcp]
+command = 'C:\Program Files\nodejs\node.exe'
+args = ['C:\Tools\keil-proteus-mcp\dist\src\server.js', 'proteus']
+startup_timeout_sec = 30
+tool_timeout_sec = 180
