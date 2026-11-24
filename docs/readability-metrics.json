@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-24",
+  "files": [
+    {
+      "path": "scripts/call.mjs",
+      "beforeLines": 15,
+      "afterLines": 28,
+      "beforeMaxLine": 157,
+      "afterMaxLine": 90
+    },
+    {
+      "path": "scripts/configure.mjs",
+      "beforeLines": 20,
+      "afterLines": 35,
+      "beforeMaxLine": 101,
+      "afterMaxLine": 94
+    },
+    {
+      "path": "scripts/setup-example.mjs",
+      "beforeLines": 39,
+      "afterLines": 51,
+      "beforeMaxLine": 211,
+      "afterMaxLine": 175
+    },
+    {
+      "path": "scripts/test.mjs",
+      "beforeLines": 16,
+      "afterLines": 33,
+      "beforeMaxLine": 168,
+      "afterMaxLine": 90
+    },
+    {
+      "path": "src/common.ts",
+      "beforeLines": 44,
+      "afterLines": 102,
+      "beforeMaxLine": 228,
+      "afterMaxLine": 98
+    },
+    {
+      "path": "src/desktop.ts",
+      "beforeLines": 22,
+      "afterLines": 97,
+      "beforeMaxLine": 310,
+      "afterMaxLine": 108
+    },
+    {
+      "path": "src/doctor.ts",
+      "beforeLines": 7,
+      "afterLines": 27,
+      "beforeMaxLine": 222,
+      "afterMaxLine": 98
+    },
+    {
+      "path": "src/keil.ts",
+      "beforeLines": 66,
+      "afterLines": 186,
+      "beforeMaxLine": 336,
+      "afterMaxLine": 99
+    },
+    {
+      "path": "src/proteus.ts",
+      "beforeLines": 86,
+      "afterLines": 240,
+      "beforeMaxLine": 276,
+      "afterMaxLine": 99
+    },
+    {
+      "path": "src/server.ts",
+      "beforeLines": 44,
+      "afterLines": 219,
+      "beforeMaxLine": 444,
+      "afterMaxLine": 192
+    },
+    {
+      "path": "tests/core.test.ts",
+      "beforeLines": 48,
+      "afterLines": 86,
+      "beforeMaxLine": 219,
+      "afterMaxLine": 96
+    },
+    {
+      "path": "tests/mcp.test.ts",
+      "beforeLines": 16,
+      "afterLines": 31,
+      "beforeMaxLine": 184,
+      "afterMaxLine": 92
+    }
+  ]
+}

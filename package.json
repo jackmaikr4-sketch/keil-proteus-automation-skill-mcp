@@ -9,7 +9,9 @@
     "keil": "node dist/src/server.js keil",
     "proteus": "node dist/src/server.js proteus",
     "doctor": "node dist/src/doctor.js",
-    "configure": "node scripts/configure.mjs"
+    "configure": "node scripts/configure.mjs",
+    "format": "prettier --write \"src/**/*.{ts,mjs}\" \"scripts/**/*.mjs\" \"tests/**/*.{ts,mjs}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,mjs}\" \"scripts/**/*.mjs\" \"tests/**/*.{ts,mjs}\""
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.31.0",
@@ -19,7 +21,8 @@
   },
   "devDependencies": {
     "@types/node": "24.10.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "prettier": "3.6.2"
   },
   "license": "MIT",
   "description": "Local Windows MCP servers for Keil C51 builds and Proteus simulation automation",

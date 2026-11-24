@@ -1,5 +1,6 @@
 # Keil / Proteus MCP
 
+> 源码审查与可复现说明：见 [2026-11-24 源码审查报告](docs/SOURCE-AUDIT.md)。本项目提供可读源码和本地构建流程，采用 [MIT 许可证](LICENSE)。
 让 AI 在 Windows 上修改 C51 源码、调用 Keil 构建、把经过校验的 HEX 加载到 Proteus，并运行、暂停、停止仿真。
 
 一个仓库，两个独立的 **本地 stdio MCP 服务**：`keil-mcp` 和 `proteus-mcp`。不需要 Python，不监听网络端口。支持能够启动本地 stdio MCP 的 AI 客户端；下文提供 Codex 配置和通用 JSON 配置。
@@ -142,3 +143,7 @@ node scripts/setup-example.mjs 'C:\Keil_v5\C51\Examples\HELLO\Hello.uvproj'
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 
 桌面桥接采用 Windows UI Automation、原生控件消息和限定目标窗口的输入，不修改 Proteus 私有二进制工程格式。
+
+## 随仓库安装的 AI Skill
+
+[skill/SKILL.md](skill/SKILL.md) 提供规划、备份、执行和验证流程。运行带 `-Register` 的安装脚本时会随 MCP 一起安装到 Codex；其他客户端可手动读取此文件。
