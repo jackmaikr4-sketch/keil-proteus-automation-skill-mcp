@@ -1,2 +1,8 @@
-* text=auto
-*.ps1 text eol=crlf
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.dwg binary
+*.stl binary
+*.exe binary
+*.dll binary
